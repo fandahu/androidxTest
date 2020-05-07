@@ -24,6 +24,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-        Log.d("Test","第一次提交");
+        Log.d("Test","第二次提交");
     }
 }
